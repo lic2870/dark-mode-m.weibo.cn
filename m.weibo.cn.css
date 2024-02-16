@@ -4,7 +4,7 @@ html {
 }
 /* 一级背景 */
 .mask,
-.m-main>*,
+.m-main > *,
 .lite-page-comment,
 .lite-msg-list,
 .lite-page-tab,
@@ -48,8 +48,7 @@ textarea,
 .lite-page-list .m-text-box .cmt-sub-txt,
 .m-search div,
 .card9 .weibo-rp .card.m-panel,
-.card9 .card.m-panel,
-.refresh-btn {
+.card9 .card.m-panel {
   background-color: #2a2a2a !important;
 }
 /* 链接 */
@@ -136,7 +135,8 @@ footer.m-ctrl-box,
   border-color: #333;
 }
 
-.m-line-gradient {
+.m-line-gradient,
+.refresh-btn {
   background-color: #333;
 }
 /* 搜索页 */
@@ -152,4 +152,7 @@ footer.m-ctrl-box,
 .m-bar-panel,
 .lite-page-tab {
   box-shadow: 0 1px 0 0 #333;
+}
+.card9.card {
+  margin-bottom: 0;
 }
